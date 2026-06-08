@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Upload Resume</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  </head>
+<body>
+  <nav class="site-nav">
+    <div class="nav-inner">
+      <a class="brand" href="index.html">Genverse</a>
+      <div class="nav-links">
+        <a href="dashboard.html">Dashboard</a>
+        <button id="logoutBtn" class="btn small ghost">Logout</button>
+      </div>
+    </div>
+  </nav>
+
+  <main class="center-card">
+    <div class="card">
+      <h2>Upload / Paste Resume</h2>
+      <textarea id="resumeText" placeholder="Paste resume text"></textarea>
+      <button id="analyzeBtn" class="btn">Analyze</button>
+    </div>
+  </main>
+
+  <script type="module" src="js/upload.js"></script>
+</body>
+</html>

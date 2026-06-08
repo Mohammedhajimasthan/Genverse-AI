@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Dashboard</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  </head>
+<body>
+  <nav class="site-nav">
+    <div class="nav-inner">
+      <a class="brand" href="index.html">Genverse</a>
+      <div class="nav-links">
+        <a href="upload.html">Upload</a>
+        <button id="logoutBtn" class="btn small ghost">Logout</button>
+      </div>
+    </div>
+  </nav>
+
+  <main class="center-card">
+    <div class="card">
+      <h2>Resume Score</h2>
+      <h1 id="score"></h1>
+
+      <h3>Missing Skills</h3>
+      <ul id="skills"></ul>
+
+      <h3>Suggestions</h3>
+      <ul id="suggestions"></ul>
+
+      <!-- Ad placeholder -->
+      <div class="ad-box">Ad Space</div>
+    </div>
+  </main>
+
+  <script type="module" src="js/dashboard.js"></script>
+</body>
+</html>
